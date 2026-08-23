@@ -1,63 +1,101 @@
-<div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
-</div>
+# Mohamed Amine Bouzoffara
 
-###
+### AI / Machine Learning Engineer · Researcher
 
-<div align="center">
-  <a href="https://discordapp.com/users/aguero5436" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
-  </a>
-  <a href="boussoffara09@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
-  </a>
-</div>
+I work at the intersection of **machine learning research and engineering**.
 
-###
+My current interests are centered on building learning systems that remain useful under
+real-world constraints: incomplete data, distributed environments, limited information,
+and the gap between experimental models and deployable systems.
 
-<h3 align="left">🛠 Language and tools</h3>
+My recent research has focused on **missing-data mechanisms (MCAR, MAR, MNAR)**,
+imputation strategies, and **federated learning under incomplete data**. Alongside
+research, I build practical ML systems using PyTorch, NLP, APIs, containers, and cloud
+infrastructure.
 
-###
+I am particularly interested in the questions that appear after a model works in a
+notebook:
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height="40" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" alt="flutter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="c logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="40" alt="tailwindcss logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="40" alt="androidstudio logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
-</div>
+> How does it behave when the data is incomplete?  
+> What happens when the training process is distributed?  
+> Can the model be evaluated properly?  
+> And can the resulting system actually be deployed?
 
-###
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-</picture>
+---
 
-###
+## Research
+
+My current research interests include:
+
+- Federated Learning
+- Distributed Machine Learning
+- Learning with Missing Data
+- MCAR / MAR / MNAR mechanisms
+- Imputation and incomplete-data modeling
+- Robust Machine Learning
+- Deep Learning
+- Natural Language Processing
+- Model evaluation and reliability
+
+I am interested in research that is experimentally rigorous but remains connected to
+practical machine learning systems.
+
+---
+
+## Selected Work
+
+### Federated Learning under Missing Data
+
+A PyTorch-based distributed learning system investigating the effect of missing data on
+federated training.
+
+**Focus:**
+
+- MNAR data generation
+- Imputation strategies
+- Federated optimization
+- Centralized vs distributed learning
+- Model robustness under incomplete observations
+
+---
+
+### Arabic NLP with Transformers
+
+Fine-tuned transformer models for Arabic text classification, including preprocessing,
+tokenization and contextual embeddings.
+
+**Result:** 95% classification accuracy on the evaluated dataset.
+
+---
+
+### Time-Series Anomaly Detection
+
+A deep learning pipeline for detecting anomalies in fraud-related time-series data.
+
+The system experiments with encoder-based and CNN architectures and exposes the trained
+model through a **FastAPI REST service**, packaged with Docker.
+
+---
+
+## Engineering
+
+I enjoy working across the complete ML lifecycle:
+
+```text
+Data
+  ↓
+Exploration & Analysis
+  ↓
+Feature Engineering
+  ↓
+Model Development
+  ↓
+Evaluation
+  ↓
+Experiment Tracking
+  ↓
+API / Service
+  ↓
+Containerization
+  ↓
+Cloud Deployment
