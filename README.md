@@ -4,7 +4,7 @@
 
 Computer Science graduate focused on **Machine Learning, Deep Learning, and AI systems**.
 
-I have research experience in **robust ML, missing data, and distributed/federated learning**, alongside hands-on work building and deploying ML applications.
+I have research experience in **robust ML, missing data, and distributed/federated learning**, alongside hands on work building and deploying ML applications.
 
 **Research:** Machine Learning · Federated Learning · Missing Data · NLP · Deep Learning
 
